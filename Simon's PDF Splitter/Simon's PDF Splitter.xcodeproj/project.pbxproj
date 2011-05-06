@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F025B3D81374041500621D85 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F025B3D71374041500621D85 /* Cocoa.framework */; };
+		F025B3E21374041500621D85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F025B3E01374041500621D85 /* InfoPlist.strings */; };
+		F025B3E51374041500621D85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F025B3E41374041500621D85 /* main.m */; };
+		F025B3E81374041500621D85 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F025B3E61374041500621D85 /* Credits.rtf */; };
+		F025B3EB1374041500621D85 /* Simon_s_PDF_SplitterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F025B3EA1374041500621D85 /* Simon_s_PDF_SplitterAppDelegate.m */; };
+		F025B3EE1374041600621D85 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F025B3EC1374041600621D85 /* MainMenu.xib */; };
+		F025B3F51374041600621D85 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F025B3D71374041500621D85 /* Cocoa.framework */; };
+		F025B3FD1374041600621D85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F025B3FB1374041600621D85 /* InfoPlist.strings */; };
+		F025B4001374041600621D85 /* Simon_s_PDF_SplitterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F025B3FF1374041600621D85 /* Simon_s_PDF_SplitterTests.h */; };
+		F025B4021374041600621D85 /* Simon_s_PDF_SplitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F025B4011374041600621D85 /* Simon_s_PDF_SplitterTests.m */; };
+		F025B40C137426D600621D85 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F025B40B137426D600621D85 /* Quartz.framework */; };
+		F025B40D137426D600621D85 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F025B40B137426D600621D85 /* Quartz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F025B3F61374041600621D85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F025B3CA1374041500621D85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F025B3D21374041500621D85;
+			remoteInfo = "Simon's PDF Splitter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F025B3D31374041500621D85 /* Simon's PDF Splitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simon's PDF Splitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F025B3D71374041500621D85 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F025B3DA1374041500621D85 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F025B3DB1374041500621D85 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F025B3DC1374041500621D85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F025B3DF1374041500621D85 /* Simon's PDF Splitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simon's PDF Splitter-Info.plist"; sourceTree = "<group>"; };
+		F025B3E11374041500621D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F025B3E31374041500621D85 /* Simon's PDF Splitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simon's PDF Splitter-Prefix.pch"; sourceTree = "<group>"; };
+		F025B3E41374041500621D85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F025B3E71374041500621D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F025B3E91374041500621D85 /* Simon_s_PDF_SplitterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simon_s_PDF_SplitterAppDelegate.h; sourceTree = "<group>"; };
+		F025B3EA1374041500621D85 /* Simon_s_PDF_SplitterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simon_s_PDF_SplitterAppDelegate.m; sourceTree = "<group>"; };
+		F025B3ED1374041600621D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F025B3F41374041600621D85 /* Simon's PDF SplitterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simon's PDF SplitterTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F025B3FA1374041600621D85 /* Simon's PDF SplitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simon's PDF SplitterTests-Info.plist"; sourceTree = "<group>"; };
+		F025B3FC1374041600621D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F025B3FE1374041600621D85 /* Simon's PDF SplitterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simon's PDF SplitterTests-Prefix.pch"; sourceTree = "<group>"; };
+		F025B3FF1374041600621D85 /* Simon_s_PDF_SplitterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simon_s_PDF_SplitterTests.h; sourceTree = "<group>"; };
+		F025B4011374041600621D85 /* Simon_s_PDF_SplitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simon_s_PDF_SplitterTests.m; sourceTree = "<group>"; };
+		F025B40B137426D600621D85 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = ../../../../../../../System/Library/Frameworks/Quartz.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F025B3D01374041500621D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F025B3D81374041500621D85 /* Cocoa.framework in Frameworks */,
+				F025B40C137426D600621D85 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F025B3F01374041600621D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F025B3F51374041600621D85 /* Cocoa.framework in Frameworks */,
+				F025B40D137426D600621D85 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F025B3C81374041500621D85 = {
+			isa = PBXGroup;
+			children = (
+				F025B3DD1374041500621D85 /* Simon's PDF Splitter */,
+				F025B3F81374041600621D85 /* Simon's PDF SplitterTests */,
+				F025B3D61374041500621D85 /* Frameworks */,
+				F025B3D41374041500621D85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F025B3D41374041500621D85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F025B3D31374041500621D85 /* Simon's PDF Splitter.app */,
+				F025B3F41374041600621D85 /* Simon's PDF SplitterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F025B3D61374041500621D85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F025B40B137426D600621D85 /* Quartz.framework */,
+				F025B3D71374041500621D85 /* Cocoa.framework */,
+				F025B3D91374041500621D85 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F025B3D91374041500621D85 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F025B3DA1374041500621D85 /* AppKit.framework */,
+				F025B3DB1374041500621D85 /* CoreData.framework */,
+				F025B3DC1374041500621D85 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F025B3DD1374041500621D85 /* Simon's PDF Splitter */ = {
+			isa = PBXGroup;
+			children = (
+				F025B3E91374041500621D85 /* Simon_s_PDF_SplitterAppDelegate.h */,
+				F025B3EA1374041500621D85 /* Simon_s_PDF_SplitterAppDelegate.m */,
+				F025B3EC1374041600621D85 /* MainMenu.xib */,
+				F025B3DE1374041500621D85 /* Supporting Files */,
+			);
+			path = "Simon's PDF Splitter";
+			sourceTree = "<group>";
+		};
+		F025B3DE1374041500621D85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F025B3DF1374041500621D85 /* Simon's PDF Splitter-Info.plist */,
+				F025B3E01374041500621D85 /* InfoPlist.strings */,
+				F025B3E31374041500621D85 /* Simon's PDF Splitter-Prefix.pch */,
+				F025B3E41374041500621D85 /* main.m */,
+				F025B3E61374041500621D85 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F025B3F81374041600621D85 /* Simon's PDF SplitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F025B3FF1374041600621D85 /* Simon_s_PDF_SplitterTests.h */,
+				F025B4011374041600621D85 /* Simon_s_PDF_SplitterTests.m */,
+				F025B3F91374041600621D85 /* Supporting Files */,
+			);
+			path = "Simon's PDF SplitterTests";
+			sourceTree = "<group>";
+		};
+		F025B3F91374041600621D85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F025B3FA1374041600621D85 /* Simon's PDF SplitterTests-Info.plist */,
+				F025B3FB1374041600621D85 /* InfoPlist.strings */,
+				F025B3FE1374041600621D85 /* Simon's PDF SplitterTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F025B3D21374041500621D85 /* Simon's PDF Splitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F025B4051374041600621D85 /* Build configuration list for PBXNativeTarget "Simon's PDF Splitter" */;
+			buildPhases = (
+				F025B3CF1374041500621D85 /* Sources */,
+				F025B3D01374041500621D85 /* Frameworks */,
+				F025B3D11374041500621D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simon's PDF Splitter";
+			productName = "Simon's PDF Splitter";
+			productReference = F025B3D31374041500621D85 /* Simon's PDF Splitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F025B3F31374041600621D85 /* Simon's PDF SplitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F025B4081374041600621D85 /* Build configuration list for PBXNativeTarget "Simon's PDF SplitterTests" */;
+			buildPhases = (
+				F025B3EF1374041600621D85 /* Sources */,
+				F025B3F01374041600621D85 /* Frameworks */,
+				F025B3F11374041600621D85 /* Resources */,
+				F025B3F21374041600621D85 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F025B3F71374041600621D85 /* PBXTargetDependency */,
+			);
+			name = "Simon's PDF SplitterTests";
+			productName = "Simon's PDF SplitterTests";
+			productReference = F025B3F41374041600621D85 /* Simon's PDF SplitterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F025B3CA1374041500621D85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Amphora Research Systems";
+			};
+			buildConfigurationList = F025B3CD1374041500621D85 /* Build configuration list for PBXProject "Simon's PDF Splitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F025B3C81374041500621D85;
+			productRefGroup = F025B3D41374041500621D85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F025B3D21374041500621D85 /* Simon's PDF Splitter */,
+				F025B3F31374041600621D85 /* Simon's PDF SplitterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F025B3D11374041500621D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F025B3E21374041500621D85 /* InfoPlist.strings in Resources */,
+				F025B3E81374041500621D85 /* Credits.rtf in Resources */,
+				F025B3EE1374041600621D85 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F025B3F11374041600621D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F025B3FD1374041600621D85 /* InfoPlist.strings in Resources */,
+				F025B4001374041600621D85 /* Simon_s_PDF_SplitterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F025B3F21374041600621D85 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F025B3CF1374041500621D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F025B3E51374041500621D85 /* main.m in Sources */,
+				F025B3EB1374041500621D85 /* Simon_s_PDF_SplitterAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F025B3EF1374041600621D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F025B4021374041600621D85 /* Simon_s_PDF_SplitterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F025B3F71374041600621D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F025B3D21374041500621D85 /* Simon's PDF Splitter */;
+			targetProxy = F025B3F61374041600621D85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F025B3E01374041500621D85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F025B3E11374041500621D85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F025B3E61374041500621D85 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F025B3E71374041500621D85 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F025B3EC1374041600621D85 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F025B3ED1374041600621D85 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F025B3FB1374041600621D85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F025B3FC1374041600621D85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F025B4031374041600621D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F025B4041374041600621D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F025B4061374041600621D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simon's PDF Splitter/Simon's PDF Splitter-Prefix.pch";
+				INFOPLIST_FILE = "Simon's PDF Splitter/Simon's PDF Splitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F025B4071374041600621D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simon's PDF Splitter/Simon's PDF Splitter-Prefix.pch";
+				INFOPLIST_FILE = "Simon's PDF Splitter/Simon's PDF Splitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F025B4091374041600621D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simon's PDF Splitter.app/Contents/MacOS/Simon's PDF Splitter";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simon's PDF SplitterTests/Simon's PDF SplitterTests-Prefix.pch";
+				INFOPLIST_FILE = "Simon's PDF SplitterTests/Simon's PDF SplitterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F025B40A1374041600621D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simon's PDF Splitter.app/Contents/MacOS/Simon's PDF Splitter";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simon's PDF SplitterTests/Simon's PDF SplitterTests-Prefix.pch";
+				INFOPLIST_FILE = "Simon's PDF SplitterTests/Simon's PDF SplitterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F025B3CD1374041500621D85 /* Build configuration list for PBXProject "Simon's PDF Splitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F025B4031374041600621D85 /* Debug */,
+				F025B4041374041600621D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F025B4051374041600621D85 /* Build configuration list for PBXNativeTarget "Simon's PDF Splitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F025B4061374041600621D85 /* Debug */,
+				F025B4071374041600621D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F025B4081374041600621D85 /* Build configuration list for PBXNativeTarget "Simon's PDF SplitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F025B4091374041600621D85 /* Debug */,
+				F025B40A1374041600621D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F025B3CA1374041500621D85 /* Project object */;
+}
